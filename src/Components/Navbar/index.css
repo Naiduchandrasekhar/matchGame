@@ -1,0 +1,49 @@
+.navbarContainer {
+  background-color: #2c0e3a;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+  .navbarContainer {
+    width: 80vw;
+  }
+}
+
+.matchGameLogo {
+  padding-left: 20px;
+  height: 30px;
+  width: 140px;
+}
+
+.timerLogo {
+  height: 25px;
+  margin-left: 18px;
+  margin-right: 10px;
+}
+
+.scoreTimeContainer {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+.scoreTag {
+  color: #ffffff;
+}
+
+.scoreNum {
+  color: #fec653;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.seconds {
+  color: #fec653;
+  font-size: 18px;
+  font-weight: 500;
+}

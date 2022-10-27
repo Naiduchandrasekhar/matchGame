@@ -1,0 +1,9 @@
+.thumbnailImages {
+  max-height: 110px;
+  max-width: 110px;
+  cursor: pointer;
+}
+
+.listItem {
+  margin: 5px;
+}
